@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='quantagene',
+    name='Quantagen',
     version='0.1.0',
     author='Christoffer Mattsson Langseth',
     author_email='christoffer@spatial.ist',
