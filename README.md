@@ -7,4 +7,4 @@ To install the package, run `pip install Quantagene`.
 # Usage
 
 # Development
-![logo](images/logo.png)
+![logo](misc/images/logo.png)
