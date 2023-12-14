@@ -1,5 +1,0 @@
-numpy
-pandas
-tifffile
-scikit-image
-matplotlib
