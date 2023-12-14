@@ -1,3 +1,8 @@
+import os
+import tifffile as tff
+import numpy as np
+import pandas as pd
+
 def extract_metrics(dataframe):
     dictionary_ = {}
     for channel_ in sorted(dataframe.channel.unique()):

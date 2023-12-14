@@ -5,10 +5,10 @@ setup(
     version='0.1.0',
     author='Christoffer Mattsson Langseth',
     author_email='christoffer@spatial.ist',
-    description='A tool for Countagene users',
+    description='A tool for Countagen users',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/christoffermattssonlangseth/quantagene',
+    url='https://github.com/christoffermattssonlangseth/quantagen',
     license='LICENSE',
     packages=find_packages(),
     install_requires=[

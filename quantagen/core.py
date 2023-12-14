@@ -2,6 +2,7 @@ import os
 import tifffile as tff
 import numpy as np
 import pandas as pd
+from .image_processing import get_image_dimensions, countagen_projection, group_channels
 
 def countagen_main(
                     image:np.array,
@@ -66,7 +67,7 @@ def countagen_spot_detection(
                     max_sigma:int = 30,
                     min_sigma:int = 2,
                     quantile_to_filter:float = 0.4,
-                    plot_blobs:bool = True,
+                    plot_blobs:bool = False,
                     cmap_im:str = 'gray',
                     mult_factor:int = 20,
                     cmap_spots:str = 'Reds',
@@ -130,6 +131,6 @@ def countagen_spot_detection(
                              cmap = cmap_spots,
                              alpha = alpha_spots)
             plt.colorbar(sc, shrink= 0.5)
-        plt.savefig(path_file[:]+'_blobs_detected.pdf')
+        #plt.savefig(path_file[:]+'_blobs_detected.pdf')
         plt.show()
     return spot_data,image_norm
