@@ -15,6 +15,4 @@ This was a joint effort by everyone at spatialist.
 
 # Contact Information
 Please reach out to us at spatialist if you have any questions, concerns or any project enquiries: info@spatial.ist 
-
-# Development
 ![logo](misc/images/logo.png)
