@@ -8,4 +8,4 @@ To install the package, run `pip install Quantagene`.
 
 # Development
 The code in this repository was developed by spatialist. 
-![logo](images/logo.png)
+<img src="images/logo.png" width="300" height="200">
